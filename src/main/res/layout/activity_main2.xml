@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+
+    <TextView
+        android:id="@+id/raintickets"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="жедезнодорожный билет"
+        android:textColor="#215923"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="textView2"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+
+
+
+
+    <Button
+        android:id="@+id/button"
+        android:text="передача данных"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="36dp"
+        android:backgroundTint="#38373A"
+        android:textColor="#7109F1"
+        android:textColorHint="#6910D6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumber"
+        />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="36dp"
+        android:background="#4CAF50"
+        android:ems="10"
+        android:gravity="center"
+        android:text="место прибытия"
+        android:textColor="#022949"
+        android:textColorHint="#CF1313"
+        android:textColorLink="#F80A0A"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTime"/>
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="36dp"
+        android:background="#4CAF50"
+        android:ems="10"
+        android:gravity="center"
+        android:text="Имя пользователя"
+        android:textColor="#022949"
+        android:textColorHint="#CF1313"
+        android:textColorLink="#F80A0A"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/raintickets" />
+
+    <EditText
+        android:id="@+id/editTextTime"
+
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="36dp"
+        android:background="#4CAF50"
+        android:ems="10"
+        android:gravity="center"
+        android:text="времия отрпавления / прибытия поезда "
+        android:textColor="#022949"
+        android:textColorHint="#CF1313"
+        android:textColorLink="#F80A0A"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
